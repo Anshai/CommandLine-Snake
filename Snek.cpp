@@ -45,7 +45,7 @@ class snekHead {
 	}
 };
 
-class GameHelp {
+class RunGame {
 	public:
 	int x,y;
 	int height,width;
@@ -105,7 +105,7 @@ int main(){
 	bool exit = false;
 
 	
-	GameHelp game;
+	RunGame game;
 	snekHead snek;
 
 	snek.setX(10);
