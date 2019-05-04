@@ -1,49 +1,7 @@
 #include <iostream>
+#include "Fnc.h"
+
 using namespace std;
-
-class snekHead {
-	public:
-	int x;
-	int y;
-
-	// SET METHONDS
-
-	void setX(int n){
-		x = n;
-	}
-	
-	void setY(int n){
-		y = n;
-	}
-
-	// GET METHONDS
-
-	int getX(){
-		return x;
-	}
-	
-	int getY(){
-		return y;
-	}
-
-	// MOVEMENT METHODS
-	
-	void left(){
-		x--;
-	}
-	
-	void right(){
-		x++;
-	}
-	
-	void up(){
-		y--;
-	}
-	
-	void down(){
-		y++;
-	}
-};
 
 class RunGame {
 	public:
